@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: #a8a6a675;
+}
+
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: hsla(0, 0%, 0%, 0.993);
+    font-weight: 800;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.fullname {
+    margin-left: 50px;
+    flex-basis: 550px;
+   
+}
+
+.myImg {
+    margin-top: 300px
+    flex-basis: 550px;
+   
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color:#a8a6a675;
+    flex: 0 0 auto;
+}
